@@ -1,0 +1,327 @@
+//! HEADER
+@media screen and (max-width:1450px) {
+    body {
+        header {
+            #slider {
+                width: 1250px;
+
+                &Inside {
+
+                    .sliderImage {
+                        min-width: 1250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1251px) {
+    body {
+        header {
+            #slider {
+                width: 1050px;
+
+                &Inside {
+                    height: 700px;
+
+                    .sliderImage {
+                        min-width: 1050px;
+                    }
+                }
+
+                &Text {
+                    width: 700px;
+
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1051px) {
+    body {
+        header {
+            #slider {
+                width: 850px;
+
+                &Inside {
+
+                    .sliderImage {
+                        min-width: 850px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:851px) {
+    body {
+        header {
+            #slider {
+                width: 650px;
+
+                &Inside {
+                    height: 550px;
+
+                    .sliderImage {
+                        min-width: 650px;
+                    }
+                }
+
+                &Text {
+                    width: 500px;
+                    bottom: 30%;
+
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:651px) {
+    body {
+        header {
+            #slider {
+                width: 450px;
+
+                &Inside {
+                    height: 350px;
+
+                    .sliderImage {
+                        min-width: 450px;
+                    }
+                }
+
+                &Text {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+//! MAIN
+@media screen and (max-width:1245px) {
+    body {
+        main {
+            .imageContainer {
+                height: 500px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        main {
+            .imageContainer {
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:813px) {
+    body {
+        main {
+            #boatBuildingText {
+                p {
+                    display: none;
+                }
+            }
+
+            .imageContainer {
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    body {
+        main {
+            #boatBuildingText {
+
+                h1 {
+                    font-size: 30px;
+                }
+            }
+
+            .imageContainer {
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:527px) {
+    body {
+        main {
+            .imageContainer {
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:435px) {
+    body {
+        main {
+            .imageContainer {
+                height: 180px;
+            }
+        }
+    }
+}
+
+//! FOOTER
+@media screen and (max-width: 1067px) {
+    body {
+        footer {
+            form {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {
+    body {
+        footer {
+            #footerTop {
+                h1 {
+                    font-size: 40px;
+
+                    &::before {
+                        left: 39%;
+                    }
+                }
+            }
+
+            form {
+                flex-direction: column-reverse;
+
+                #formRight,
+                #formLeft {
+                    width: 100%;
+                    border: none;
+                }
+
+                #formRight {
+                    height: 300px;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+
+                    #sendUsAMessageText {
+                        display: none;
+                    }
+
+                    .info {
+                        width: 45%;
+                    }
+
+                    #socialMedias {
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 621px) {
+    body {
+        footer {
+            #footerTop {
+                h1 {
+                    font-size: 30px;
+
+                    &::before {
+                        left: 39%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 561px) {
+    body {
+        footer {
+            #footerTop {
+                h1 {
+                    font-size: 30px;
+
+                    &::before {
+                        left: 34%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 533px) {
+    body {
+        footer {
+            form {
+                #formRight {
+                    height: auto;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    padding: 30px 10px;
+
+                    #sendUsAMessageText {
+                        display: none;
+                    }
+
+                    .info {
+                        align-items: center;
+                        width: 100%;
+
+                        p {
+                            text-align: center;
+                        }
+                    }
+
+                    #socialMedias {
+                        width: 100%;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 401px) {
+    body {
+        footer {
+            #footerTop {
+                h1 {
+                    font-size: 26px;
+
+                    &::before {
+                        left: 28%;
+                    }
+                }
+            }
+        }
+    }
+}

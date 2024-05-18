@@ -1,0 +1,188 @@
+@media screen and (max-width: 1450px) {
+  body header #slider {
+    width: 1250px;
+  }
+  body header #sliderInside .sliderImage {
+    min-width: 1250px;
+  }
+}
+@media screen and (max-width: 1251px) {
+  body header #slider {
+    width: 1050px;
+  }
+  body header #sliderInside {
+    height: 700px;
+  }
+  body header #sliderInside .sliderImage {
+    min-width: 1050px;
+  }
+  body header #sliderText {
+    width: 700px;
+  }
+  body header #sliderText h1 {
+    font-size: 30px;
+  }
+  body header #sliderText p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1051px) {
+  body header #slider {
+    width: 850px;
+  }
+  body header #sliderInside .sliderImage {
+    min-width: 850px;
+  }
+}
+@media screen and (max-width: 851px) {
+  body header #slider {
+    width: 650px;
+  }
+  body header #sliderInside {
+    height: 550px;
+  }
+  body header #sliderInside .sliderImage {
+    min-width: 650px;
+  }
+  body header #sliderText {
+    width: 500px;
+    bottom: 30%;
+  }
+  body header #sliderText h1 {
+    font-size: 30px;
+  }
+  body header #sliderText p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 651px) {
+  body header #slider {
+    width: 450px;
+  }
+  body header #sliderInside {
+    height: 350px;
+  }
+  body header #sliderInside .sliderImage {
+    min-width: 450px;
+  }
+  body header #sliderText {
+    display: none;
+  }
+}
+@media screen and (max-width: 1245px) {
+  body main .imageContainer {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body main .imageContainer {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 813px) {
+  body main #boatBuildingText p {
+    display: none;
+  }
+  body main .imageContainer {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body main #boatBuildingText h1 {
+    font-size: 30px;
+  }
+  body main .imageContainer {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 527px) {
+  body main .imageContainer {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 435px) {
+  body main .imageContainer {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 1067px) {
+  body footer form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 830px) {
+  body footer #footerTop h1 {
+    font-size: 40px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+  body footer form {
+    flex-direction: column-reverse;
+  }
+  body footer form #formRight,
+  body footer form #formLeft {
+    width: 100%;
+    border: none;
+  }
+  body footer form #formRight {
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    width: 45%;
+  }
+  body footer form #formRight #socialMedias {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 621px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+}
+@media screen and (max-width: 561px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 34%;
+  }
+}
+@media screen and (max-width: 533px) {
+  body footer form #formRight {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 10px;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    align-items: center;
+    width: 100%;
+  }
+  body footer form #formRight .info p {
+    text-align: center;
+  }
+  body footer form #formRight #socialMedias {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 401px) {
+  body footer #footerTop h1 {
+    font-size: 26px;
+  }
+  body footer #footerTop h1::before {
+    left: 28%;
+  }
+}/*# sourceMappingURL=boatBuilding.css.map */

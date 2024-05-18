@@ -1,0 +1,213 @@
+@media screen and (min-width: 1550px) {
+  body header #videoContainer {
+    width: auto;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1550px) {
+  body header #videoContainer {
+    width: auto;
+    height: 850px;
+  }
+}
+@media screen and (max-width: 1330px) {
+  body header #videoContainer {
+    height: 770px;
+  }
+}
+@media screen and (max-width: 1210px) {
+  body header #videoContainer {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1159px) {
+  body header #videoContainer #text {
+    display: none;
+  }
+}
+@media screen and (max-width: 1060px) {
+  body header #videoContainer {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 940px) {
+  body header #videoContainer {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 866px) {
+  body header #videoContainer {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 741px) {
+  body header #videoContainer {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 551px) {
+  body header #videoContainer {
+    height: 300px;
+  }
+  body header #videoContainer video {
+    top: 0;
+  }
+}
+@media screen and (max-width: 530px) {
+  body header #videoContainer {
+    height: 350px;
+  }
+  body header #videoContainer video {
+    top: 24px;
+  }
+}
+@media screen and (max-width: 460px) {
+  body header #videoContainer {
+    height: 310px;
+  }
+}
+@media screen and (max-width: 401px) {
+  body header #videoContainer {
+    height: 280px;
+  }
+}
+@media screen and (max-width: 1098px) {
+  body main #projects {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main #projects .project {
+    width: 90%;
+    height: 500px;
+  }
+  body main #projects .projectInside {
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 976px) {
+  body main #projects .project {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 784px) {
+  body main #projects .project {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 681px) {
+  body main #precentStudy h1 {
+    font-size: 30px;
+  }
+  body main #precentStudy p {
+    display: none;
+  }
+  body main #projects .project {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 568px) {
+  body main #precentStudy h1 {
+    font-size: 24px;
+  }
+  body main #projects .project {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 488px) {
+  body main #precentStudy h1 {
+    font-size: 22px;
+  }
+  body main #projects .project {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 401px) {
+  body main #precentStudy h1 {
+    font-size: 20px;
+  }
+  body main #projects .project {
+    height: 170px;
+  }
+}
+@media screen and (max-width: 1067px) {
+  body footer form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 830px) {
+  body footer #footerTop h1 {
+    font-size: 40px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+  body footer form {
+    flex-direction: column-reverse;
+  }
+  body footer form #formRight,
+  body footer form #formLeft {
+    width: 100%;
+    border: none;
+  }
+  body footer form #formRight {
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    width: 45%;
+  }
+  body footer form #formRight #socialMedias {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 621px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+}
+@media screen and (max-width: 561px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 34%;
+  }
+}
+@media screen and (max-width: 533px) {
+  body footer form #formRight {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 10px;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    align-items: center;
+    width: 100%;
+  }
+  body footer form #formRight .info p {
+    text-align: center;
+  }
+  body footer form #formRight #socialMedias {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 401px) {
+  body footer #footerTop h1 {
+    font-size: 26px;
+  }
+  body footer #footerTop h1::before {
+    left: 28%;
+  }
+}/*# sourceMappingURL=plantahof.css.map */

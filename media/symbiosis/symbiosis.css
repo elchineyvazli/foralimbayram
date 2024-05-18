@@ -1,0 +1,184 @@
+@media screen and (min-width: 1550px) {
+  body header #video {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1550px) {
+  body header #video {
+    width: 100%;
+    height: 860px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  body header #video {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 980px) {
+  body header #video #fadeText {
+    display: none;
+  }
+}
+@media screen and (max-width: 926px) {
+  body header #video {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 730px) {
+  body header #video {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 550px) {
+  body header #video {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  body main .symbiosisText p {
+    width: auto;
+    padding: 0 6%;
+  }
+}
+@media screen and (max-width: 1312px) {
+  body main .symbiosisText p {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body main .imageContainer {
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  body main .imageContainer {
+    background-size: auto 100%;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 911px) {
+  body main .symbiosisText h1 {
+    font-size: 30px;
+  }
+  body main .symbiosisText p {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 797px) {
+  body main .imageContainer {
+    background-size: 100% 100%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 622px) {
+  body main .imageContainer {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 604px) {
+  body main .symbiosisText h1 {
+    font-size: 24px;
+  }
+  body main .symbiosisText p {
+    width: auto;
+  }
+}
+@media screen and (max-width: 504px) {
+  body main .symbiosisText p {
+    display: none;
+  }
+}
+@media screen and (max-width: 468px) {
+  body main .imageContainer {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  body footer #footerTop {
+    padding: 30px 10%;
+  }
+  body footer form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1067px) {
+  body footer form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 830px) {
+  body footer #footerTop h1 {
+    font-size: 40px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+  body footer form {
+    flex-direction: column-reverse;
+  }
+  body footer form #formRight,
+  body footer form #formLeft {
+    width: 100%;
+    border: none;
+  }
+  body footer form #formRight {
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    width: 45%;
+  }
+  body footer form #formRight #socialMedias {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 621px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+}
+@media screen and (max-width: 561px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 34%;
+  }
+}
+@media screen and (max-width: 533px) {
+  body footer form #formRight {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 10px;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    align-items: center;
+    width: 100%;
+  }
+  body footer form #formRight .info p {
+    text-align: center;
+  }
+  body footer form #formRight #socialMedias {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 401px) {
+  body footer #footerTop h1 {
+    font-size: 26px;
+  }
+  body footer #footerTop h1::before {
+    left: 28%;
+  }
+}/*# sourceMappingURL=symbiosis.css.map */

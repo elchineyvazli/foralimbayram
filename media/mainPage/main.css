@@ -1,0 +1,160 @@
+@media screen and (max-width: 1332px) {
+  body header #headerInsideText {
+    background-position: 0 -200px;
+    background-size: 120%;
+  }
+}
+@media screen and (max-width: 1123px) {
+  body header #headerInsideText {
+    height: 700px;
+  }
+  body header #headerInsideText #text {
+    width: 500px;
+    top: auto;
+    bottom: 30%;
+  }
+  body header #headerInsideText #text h1 {
+    font-size: 30px;
+  }
+  body header #headerInsideText #text h4 {
+    font-size: 20px;
+  }
+  body header #headerInsideText #text p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 807px) {
+  body header #headerInsideText {
+    background-position: 0;
+  }
+}
+@media screen and (max-width: 651px) {
+  body header #headerInsideText {
+    height: 500px;
+    background-position: 0 -80px;
+  }
+  body header #headerInsideText #text {
+    width: 300px;
+    top: auto;
+    bottom: 30%;
+  }
+  body header #headerInsideText #text h1 {
+    font-size: 24px;
+  }
+  body header #headerInsideText #text h4 {
+    font-size: 17px;
+  }
+  body header #headerInsideText #text p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body main #projectsContainerInside {
+    flex-wrap: wrap;
+  }
+  body main #projectsContainerInside .cover {
+    width: 45%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 780px) {
+  body main #projectsContainerInside {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main #projectsContainerInside .cover {
+    width: 90%;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 565px) {
+  body main #projectsContainerInside .cover {
+    width: 90%;
+    height: 280px;
+  }
+  body main #projectsContainerInside .cover .atvImg-rendered-layer {
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 1067px) {
+  body footer form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 830px) {
+  body footer #footerTop h1 {
+    font-size: 40px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+  body footer form {
+    flex-direction: column-reverse;
+  }
+  body footer form #formRight,
+  body footer form #formLeft {
+    width: 100%;
+    border: none;
+  }
+  body footer form #formRight {
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    width: 45%;
+  }
+  body footer form #formRight #socialMedias {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 621px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 39%;
+  }
+}
+@media screen and (max-width: 561px) {
+  body footer #footerTop h1 {
+    font-size: 30px;
+  }
+  body footer #footerTop h1::before {
+    left: 34%;
+  }
+}
+@media screen and (max-width: 533px) {
+  body footer form #formRight {
+    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px 10px;
+  }
+  body footer form #formRight #sendUsAMessageText {
+    display: none;
+  }
+  body footer form #formRight .info {
+    align-items: center;
+    width: 100%;
+  }
+  body footer form #formRight .info p {
+    text-align: center;
+  }
+  body footer form #formRight #socialMedias {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 401px) {
+  body footer #footerTop h1 {
+    font-size: 26px;
+  }
+  body footer #footerTop h1::before {
+    left: 28%;
+  }
+}/*# sourceMappingURL=main.css.map */
