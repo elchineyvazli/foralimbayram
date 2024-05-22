@@ -23,7 +23,7 @@ darkOrLight.addEventListener('click', function () {
         for (let i = 0; i < hMenu.children.length; i++) {
             hMenu.children[i].style.backgroundColor = "black";
         }
-        footerTop.children[0].style.color = "black";
+        footerTop.children[0].children[0].style.color = "black";
 
         for (let i = 0; i < symbiosisTexts.length; i++) {
             for (let j = 0; j < symbiosisTexts[i].children.length; j++) {
@@ -43,6 +43,7 @@ darkOrLight.addEventListener('click', function () {
                 }
             }`
     } else {
+
         for (let i = 0; i < verticalMenu.children.length; i++) {
             verticalMenu.children[i].children[0].style.color = "white";
         }
@@ -51,7 +52,7 @@ darkOrLight.addEventListener('click', function () {
         }
         darkOrLight.classList = "brightIcon fa-regular fa-moon";
         darkOrLight.style.color = "white";
-        footerTop.children[0].style.color = "white";
+        footerTop.children[0].children[0].style.color = "white";
         formLeft.style.backgroundColor = "rgba(0,0,0, .24)"
         formRight.style.backgroundColor = "rgba(0,0,0, .24)"
 
@@ -116,11 +117,13 @@ hMenu.addEventListener('click', function () {
 
 let langObj = {
     en: {
-        textH1: 'ARCHITECTURE STUDENT FROM AZERBAIJAN',
-        textH4: 'Alim Bayram',
-        textP: "I don't think architecture is only about shelter, it's only about a very simple enclosure. It should be able to excite you, to calm you, to make you think.",
-        textPAuthor: "Zaha Hadid",
-        projectsH1: 'PROJECTS',
+        textH1: 'SITE AT MATTHEWS ARENA PARKING MODEL',
+        textP1: 'The ownership of shooting and editing the videos and pictures on this website is reserved under',
+        textP2: 'Copyright © by Alim Bayram',
+        symbiosisH1_1: 'SYMBIOSIS WITH THE SITE',
+        symbiosisP_1: 'The Site Model Project was a collaborative effort by the Studio 04 class led by James Allen. The project, PROJECT 03: SYMBIOSIS WITH THE SITE - Part 02 & 03. Through  the project, with group mates, we gained practical experience while learning about the symbiotic relationship between architecture and the site.',
+        symbiosisH1_2: "BLUMENTHAL FAMILY LIBRARY",
+        symbiosisP_2: "This building was also under my responsibility, and the works completed for this project were executed with the same precision and attention to detail as the building shown in the image above.",
         footerTopH1: 'Reach out for a new project or just say hello',
         footerTopH1Before: 'CONTACT US',
         formLeftH6: 'SEND MESSAGE',
@@ -160,11 +163,13 @@ let langObj = {
         ]
     },
     ru: {
-        textH1: 'СТУДЕНТКА АРХИТЕКТУРНОГО ФАКУЛЬТЕТА ИЗ АЗЕРБАЙДЖАНА',
-        textH4: 'Алим Байрам',
-        textP: "Я не думаю, что архитектура - это только укрытие, это только очень простое ограждение. Она должна возбуждать, успокаивать, заставлять думать.",
-        textPAuthor: "Заха Хадид",
-        projectsH1: 'ПРОЕКТЫ',
+        textH1: 'ПЛОЩАДКА НА ПАРКОВКЕ «МЭТЬЮС АРЕНА»',
+        textP1: 'Право собственности на съемку и редактирование видео и изображений на этом веб-сайте защищено',
+        textP2: 'Авторские права © Алим Байрам',
+        symbiosisH1_1: 'СИМБИОЗ С САЙТОМ',
+        symbiosisP_1: 'Проект модели сайта был совместной работой класса Studio 04 под руководством Джеймса Аллена. Проект ПРОЕКТ 03: СИМБИОЗ С ПЛОЩАДКОЙ - Части 02 и 03. В рамках проекта вместе с товарищами по группе мы получили практический опыт, изучая симбиотические отношения между архитектурой и местом.',
+        symbiosisP_2: "Это здание также находилось под моей ответственностью, и работы, выполненные по этому проекту, были выполнены с той же точностью и вниманием к деталям, что и здание, показанное на изображении выше.",
+        symbiosisH1_2: "СЕМЕЙНАЯ БИБЛИОТЕКА БЛЮМЕНТАЛЯ",
         footerTopH1: 'Обращайтесь за новым проектом или просто поздоровайтесь',
         footerTopH1Before: 'СВЯЖИТЕСЬ С НАМИ',
         formLeftH6: 'ОТПРАВИТЬ СООБЩЕНИЕ',
@@ -204,11 +209,13 @@ let langObj = {
         ]
     },
     tr: {
-        textH1: 'AZERBAYCANDAN MİMARLIK TALEBESİ',
-        textH4: 'Alim Bayram',
-        textP: "Bana kalırsa mimarlık yalnızca tasarımdan oluşmuyor, bundan daha geniş bir kavramdır. Bu 'tasarım' sizi heyecanlandırmalı, sakinleştirmeli ve derinlemesine düşünmenizi sağlamalı.",
-        textPAuthor: "Zaha Hadid",
-        projectsH1: 'PROJELER',
+        textH1: 'MATTHEWS ARENA PARKI SİTESİNDE',
+        textP1: 'Bu web sitesindeki video ve resimlerin çekilmesi ve düzenlenmesinin mülkiyeti aşağıda saklıdır.',
+        textP2: "Telif Hakkı © Alim Bayram'a aittir",
+        symbiosisH1_1: 'SİTE İLE SEMBYOZ',
+        symbiosisP_1: "Site Modeli Projesi, James Allen liderliğindeki Studio 04 sınıfının ortak bir çalışmasıydı. Proje, PROJE 03: ALAN İLE SİMBİYOZ - Bölüm 02 & 03. Proje aracılığıyla grup arkadaşlarıyla birlikte mimari ve alan arasındaki simbiyotik ilişkiyi öğrenirken pratik deneyim kazandık.",
+        symbiosisP_2: "Bu bina da benim sorumluluğumdaydı ve bu proje için tamamlanan işler, yukarıdaki resimde gösterilen bina ile aynı hassasiyet ve detaylara dikkat edilerek yürütüldü.",
+        symbiosisH1_2: "BLUMENTHAL AİLE KÜTÜPHANESİ",
         footerTopH1: 'Yeni bir proje fikri için baş vurun ya da yorum yap',
         footerTopH1Before: 'BİZE ULAŞIN',
         formLeftH6: 'MESAJ GÖNDER',
@@ -248,12 +255,14 @@ let langObj = {
         ]
     },
     az: {
-        textH1: ' MEMARLIQ İXTİSASI ÜZRƏ AZƏRBAYCANLI TƏLƏBƏ',
-        textH4: 'Alim Bayram',
-        textP: "Məncə memarlıq təkcə dizayndan ibarət deyil, bundan daha geniş bir anlayışdır. Bu 'dizayn' sizi həyəcana, sakitləşməyə və dərin düşünməyə vadar etməlidir.",
+        textH1: 'MATTEWS ARENA PARKINDA SAYT',
+        textP1: 'Bu veb-saytda video və şəkillərin çəkilişi və redaktə edilməsi hüququ qorunur',
+        textP2: 'Müəlliflik hüququ © Alim Bayrama məxsusdur',
 
-        textPAuthor: "Zaha Hədid",
-        projectsH1: 'PROYEKTLƏR',
+        symbiosisH1_1: 'SAYT İLƏ SİMBİOZ',
+        symbiosisP_1: 'Sayt Modeli Layihəsi James Allen-in rəhbərlik etdiyi Studio 04 sinfinin birgə səyi idi. Layihə, LAYİHƏ 03: SAYT İLƏ SİMBIOSİS - Part 02 və 03. Layihə vasitəsilə qrup yoldaşları ilə biz memarlıq və sayt arasında simbiotik əlaqəni öyrənərkən praktiki təcrübə qazandıq.',
+        symbiosisP_2: "Bu bina da mənim məsuliyyətim altında idi və bu layihə üçün tamamlanan işlər yuxarıdakı şəkildə göstərilən bina kimi dəqiqliklə və təfərrüata diqqət yetirilərək yerinə yetirildi.",
+        symbiosisH1_2: "BLUMENTAL AİLƏ KİTABXANASI",
         footerTopH1: 'Yeni bir layihə fikri üçün müraciət edin və ya fikrinizi bildirin',
 
         footerTopH1Before: 'BİZİMLƏ ƏLAQƏ SAXLAYIN',
@@ -300,20 +309,23 @@ const infoHTMLs = document.querySelectorAll('.atvImg-info')
 const projectsHTMLs = document.querySelectorAll('.atvImg-projects')
 
 const textH1 = document.getElementById('textH1');
-const textH4 = document.getElementById('textH4');
-const textP = document.getElementById('textP');
+const textP1 = document.getElementById('textP1');
+const textP2 = document.getElementById('textP2');
 
-const projectsH1 = document.getElementById('projectsH1');
-const footerTopH1 = document.getElementById('footerTopH1');
-const formLeftH6 = document.getElementById('formLeftH6');
+const symbiosisH1_1 = document.getElementById('symbiosisH1_1');
+const symbiosisH1_2 = document.getElementById('symbiosisH1_2');
+const symbiosisP_1 = document.getElementById('symbiosisP_1');
+const symbiosisP_2 = document.getElementById('symbiosisP_2');
+const footerTopH1 = document.getElementById('footerTopH1'); //*true
+const formLeftH6 = document.getElementById('formLeftH6'); //*true
 
-const submitButton = document.getElementById('submitButton');
-const sendUsAMessageText = document.getElementById('sendUsAMessageText');
-const infoH6_1 = document.getElementById('infoH6_1');
+const submitButton = document.getElementById('submitButton'); //*true
+const sendUsAMessageText = document.getElementById('sendUsAMessageText'); //*true
+const infoH6_1 = document.getElementById('infoH6_1'); //*true
 
-const infoP = document.getElementById('infoP');
-const infoH6_2 = document.getElementById('infoH6_2');
-const infoH6_3 = document.getElementById('infoH6_3');
+const infoP = document.getElementById('infoP'); //*true
+const infoH6_2 = document.getElementById('infoH6_2'); //*true
+const infoH6_3 = document.getElementById('infoH6_3'); //*true
 
 const select = document.getElementsByTagName('select')[0];
 const formInputsArr = document.querySelectorAll('.formInputs');
@@ -323,8 +335,6 @@ select.addEventListener('change', function () {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.en.projectCards[i][j]
                     }
@@ -338,10 +348,14 @@ select.addEventListener('change', function () {
         }
 
         textH1.innerText = langObj.en.textH1;
-        textH4.innerText = langObj.en.textH4;
-        textP.innerText = langObj.en.textP;
+        textP1.innerText = langObj.en.textP1;
+        textP2.innerText = langObj.en.textP2;
 
-        projectsH1.innerText = langObj.en.projectsH1;
+        symbiosisH1_1.innerText = langObj.en.symbiosisH1_1;
+        symbiosisH1_2.innerText = langObj.en.symbiosisH1_2;
+        symbiosisP_1.innerText = langObj.en.symbiosisP_1;
+        symbiosisP_2.innerText = langObj.en.symbiosisP_2;
+
         footerTopH1.innerText = langObj.en.footerTopH1;
         formLeftH6.innerText = langObj.en.formLeftH6;
 
@@ -353,14 +367,11 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.en.infoH6_2;
         infoH6_3.innerText = langObj.en.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.en.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.en.textPAuthor}'`);
 
     } else if (selectedLang === "RU") {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.ru.projectCards[i][j]
                     }
@@ -372,12 +383,15 @@ select.addEventListener('change', function () {
         for (let i = 0; i < formInputsArr.length; i++) {
             formInputsArr[i].setAttribute('placeholder', langObj.ru.inputPlaceholders[i])
         }
-
         textH1.innerText = langObj.ru.textH1;
-        textH4.innerText = langObj.ru.textH4;
-        textP.innerText = langObj.ru.textP;
+        textP1.innerText = langObj.ru.textP1;
+        textP2.innerText = langObj.ru.textP2;
 
-        projectsH1.innerText = langObj.ru.projectsH1;
+        symbiosisH1_1.innerText = langObj.ru.symbiosisH1_1;
+        symbiosisH1_2.innerText = langObj.ru.symbiosisH1_2;
+        symbiosisP_1.innerText = langObj.ru.symbiosisP_1;
+        symbiosisP_2.innerText = langObj.ru.symbiosisP_2;
+
         footerTopH1.innerText = langObj.ru.footerTopH1;
         formLeftH6.innerText = langObj.ru.formLeftH6;
 
@@ -389,14 +403,11 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.ru.infoH6_2;
         infoH6_3.innerText = langObj.ru.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.ru.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.ru.textPAuthor}'`);
 
     } else if (selectedLang === "TR") {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.tr.projectCards[i][j]
                     }
@@ -404,17 +415,19 @@ select.addEventListener('change', function () {
                 }
             })
         }
-
-
         for (let i = 0; i < formInputsArr.length; i++) {
             formInputsArr[i].setAttribute('placeholder', langObj.tr.inputPlaceholders[i])
         }
 
         textH1.innerText = langObj.tr.textH1;
-        textH4.innerText = langObj.tr.textH4;
-        textP.innerText = langObj.tr.textP;
+        textP1.innerText = langObj.tr.textP1;
+        textP2.innerText = langObj.tr.textP2;
 
-        projectsH1.innerText = langObj.tr.projectsH1;
+        symbiosisH1_1.innerText = langObj.tr.symbiosisH1_1;
+        symbiosisH1_2.innerText = langObj.tr.symbiosisH1_2;
+        symbiosisP_1.innerText = langObj.tr.symbiosisP_1;
+        symbiosisP_2.innerText = langObj.tr.symbiosisP_2;
+
         footerTopH1.innerText = langObj.tr.footerTopH1;
         formLeftH6.innerText = langObj.tr.formLeftH6;
 
@@ -426,14 +439,11 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.tr.infoH6_2;
         infoH6_3.innerText = langObj.tr.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.tr.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.tr.textPAuthor}'`);
 
     } else if (selectedLang === "AZ") {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.az.projectCards[i][j]
                     }
@@ -447,10 +457,14 @@ select.addEventListener('change', function () {
         }
 
         textH1.innerText = langObj.az.textH1;
-        textH4.innerText = langObj.az.textH4;
-        textP.innerText = langObj.az.textP;
+        textP1.innerText = langObj.az.textP1;
+        textP2.innerText = langObj.az.textP2;
 
-        projectsH1.innerText = langObj.az.projectsH1;
+        symbiosisH1_1.innerText = langObj.az.symbiosisH1_1;
+        symbiosisH1_2.innerText = langObj.az.symbiosisH1_2;
+        symbiosisP_1.innerText = langObj.az.symbiosisP_1;
+        symbiosisP_2.innerText = langObj.az.symbiosisP_2;
+
         footerTopH1.innerText = langObj.az.footerTopH1;
         formLeftH6.innerText = langObj.az.formLeftH6;
 
@@ -462,6 +476,5 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.az.infoH6_2;
         infoH6_3.innerText = langObj.az.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.az.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.az.textPAuthor}'`);
     }
 })

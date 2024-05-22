@@ -62,6 +62,7 @@
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    gap: 60px;
   }
   body main #projectsContainerInside .cover {
     width: 90%;
@@ -70,7 +71,7 @@
 }
 @media screen and (max-width: 565px) {
   body main #projectsContainerInside .cover {
-    width: 90%;
+    width: 80%;
     height: 280px;
   }
   body main #projectsContainerInside .cover .atvImg-rendered-layer {

@@ -106,6 +106,7 @@
                         flex-wrap: nowrap;
                         flex-direction: column;
                         align-items: center;
+                        gap: 60px;
 
                         .cover {
                             width: 90%;
@@ -125,7 +126,7 @@
                 &Container {
                     &Inside {
                         .cover {
-                            width: 90%;
+                            width: 80%;
                             height: 280px;
 
                             .atvImg-rendered-layer {

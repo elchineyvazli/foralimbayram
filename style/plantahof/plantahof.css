@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap");
+:root {
+  --footerTopH1: "CONTACT US";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -170,6 +174,7 @@ body header nav #navRight select {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 0;
   border: none;
+  outline: none;
 }
 body header nav #navRight select::after {
   color: #45A29F;
@@ -305,7 +310,7 @@ body footer #footerTop h1 {
   font-family: "Montserrat", sans-serif;
 }
 body footer #footerTop h1::before {
-  content: "CONTACT US";
+  content: var(--footerTopH1);
   position: absolute;
   top: -40px;
   font-size: 18px;

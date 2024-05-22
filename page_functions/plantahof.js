@@ -119,11 +119,11 @@ hMenu.addEventListener('click', function () {
 
 let langObj = {
     en: {
-        textH1: 'ARCHITECTURE STUDENT FROM AZERBAIJAN',
-        textH4: 'Alim Bayram',
-        textP: "I don't think architecture is only about shelter, it's only about a very simple enclosure. It should be able to excite you, to calm you, to make you think.",
-        textPAuthor: "Zaha Hadid",
-        projectsH1: 'PROJECTS',
+        textH1: 'SCALE OF 1:2 CONCRETE MODEL',
+        textP1: 'The ownership of shooting and editing the videos and pictures on this website is reserved under',
+        textP2: 'Copyright © by Alim Bayram',
+        precentH1: 'PRECEDENT STUDY OF THE PLANTAHOF AUDITORIUM',
+        precentP: 'As part of a group project involving a precedent analysis of an existing building in Landquart, Switzerland, designed by Valerio Olgiati, I was tasked with creating a 1:2 scale physical model of the structure. To achieve this, I utilized Rockite Anchoring Cement, a fast-drying material that allowed me to create a highly accurate and detailed replica of the building. The model was carefully constructed over a period of several hours, with close attention paid to the precise placement and alignment of each element to ensure an accurate representation of the original structure.',
         footerTopH1: 'Reach out for a new project or just say hello',
         footerTopH1Before: 'CONTACT US',
         formLeftH6: 'SEND MESSAGE',
@@ -163,11 +163,11 @@ let langObj = {
         ]
     },
     ru: {
-        textH1: 'СТУДЕНТКА АРХИТЕКТУРНОГО ФАКУЛЬТЕТА ИЗ АЗЕРБАЙДЖАНА',
-        textH4: 'Алим Байрам',
-        textP: "Я не думаю, что архитектура - это только укрытие, это только очень простое ограждение. Она должна возбуждать, успокаивать, заставлять думать.",
-        textPAuthor: "Заха Хадид",
-        projectsH1: 'ПРОЕКТЫ',
+        textH1: 'МАСШТАБ БЕТОННОЙ МОДЕЛИ 1:2',
+        textP1: 'Право собственности на съемку и редактирование видео и изображений на этом веб-сайте защищено',
+        textP2: 'Авторские права © Алим Байрам',
+        precentH1: 'ПРЕЦЕДЕНТНОЕ ИССЛЕДОВАНИЕ ЗАЛА ПЛАНТАХОФА',
+        precentP: 'В рамках группового проекта, включающего прецедентный анализ существующего здания в Ландкварте, Швейцария, спроектированного Валерио Ольджати, мне было поручено создать физическую модель конструкции в масштабе 1:2. Для этого я использовал анкерный цемент Rockite, быстросохнущий материал, который позволил мне создать очень точную и подробную копию здания. Модель была тщательно построена в течение нескольких часов, при этом пристальное внимание уделялось точному расположению и выравниванию каждого элемента, чтобы обеспечить точное представление исходной конструкции.',
         footerTopH1: 'Обращайтесь за новым проектом или просто поздоровайтесь',
         footerTopH1Before: 'СВЯЖИТЕСЬ С НАМИ',
         formLeftH6: 'ОТПРАВИТЬ СООБЩЕНИЕ',
@@ -207,11 +207,11 @@ let langObj = {
         ]
     },
     tr: {
-        textH1: 'AZERBAYCANDAN MİMARLIK TALEBESİ',
-        textH4: 'Alim Bayram',
-        textP: "Bana kalırsa mimarlık yalnızca tasarımdan oluşmuyor, bundan daha geniş bir kavramdır. Bu 'tasarım' sizi heyecanlandırmalı, sakinleştirmeli ve derinlemesine düşünmenizi sağlamalı.",
-        textPAuthor: "Zaha Hadid",
-        projectsH1: 'PROJELER',
+        textH1: '1:2 BETON MODEL ÖLÇEKLİ',
+        textP1: 'Bu web sitesindeki video ve resimlerin çekilmesi ve düzenlenmesinin mülkiyeti aşağıda saklıdır.',
+        textP2: "Telif Hakkı © Alim Bayram'a aittir",
+        precentH1: 'PLANTAHOF ODİTORYUMUNUN ÖRNEK ÇALIŞMASI',
+        precentP: "Valerio Olgiati tarafından tasarlanan, İsviçre'nin Landquart kentindeki mevcut bir binanın emsal analizini içeren bir grup projesinin parçası olarak, yapının 1:2 ölçekli fiziksel modelini oluşturmakla görevlendirildim. Bunu başarmak için hızlı kuruyan ve binanın son derece doğru ve ayrıntılı bir kopyasını oluşturmamı sağlayan Rockite Ankraj Çimentosu'nu kullandım. Model, orijinal yapının doğru bir şekilde temsil edilmesini sağlamak için her bir öğenin hassas yerleştirilmesine ve hizalanmasına büyük özen gösterilerek, birkaç saatlik bir süre boyunca dikkatli bir şekilde inşa edildi.",
         footerTopH1: 'Yeni bir proje fikri için baş vurun ya da yorum yap',
         footerTopH1Before: 'BİZE ULAŞIN',
         formLeftH6: 'MESAJ GÖNDER',
@@ -251,12 +251,12 @@ let langObj = {
         ]
     },
     az: {
-        textH1: ' MEMARLIQ İXTİSASI ÜZRƏ AZƏRBAYCANLI TƏLƏBƏ',
-        textH4: 'Alim Bayram',
-        textP: "Məncə memarlıq təkcə dizayndan ibarət deyil, bundan daha geniş bir anlayışdır. Bu 'dizayn' sizi həyəcana, sakitləşməyə və dərin düşünməyə vadar etməlidir.",
+        textH1: '1:2 BETON MODELİNİN ÖLÇÜSÜ',
+        textP1: 'Bu veb-saytda video və şəkillərin çəkilişi və redaktə edilməsi hüququ qorunur',
+        textP2: 'Müəlliflik hüququ © Alim Bayrama məxsusdur',
 
-        textPAuthor: "Zaha Hədid",
-        projectsH1: 'PROYEKTLƏR',
+        precentH1: 'PLANTAHOF AUDİTORİUMUNDA PRESEDENT TƏDQİQAT',
+        precentP: 'Valerio Olgiati tərəfindən layihələndirilən İsveçrənin Landquart şəhərində mövcud binanın presedent təhlilini əhatə edən qrup layihəsinin bir hissəsi kimi mənə strukturun 1:2 miqyaslı fiziki modelini yaratmaq tapşırıldı. Buna nail olmaq üçün mən binanın yüksək dəqiq və ətraflı surətini yaratmağa imkan verən tez quruyan material olan Rockite Anchoring Cement-dən istifadə etdim. Model bir neçə saat ərzində diqqətlə qurulmuşdur, orijinal strukturun dəqiq təsvirini təmin etmək üçün hər bir elementin dəqiq yerləşdirilməsi və düzülməsinə ciddi diqqət yetirilmişdir.',
         footerTopH1: 'Yeni bir layihə fikri üçün müraciət edin və ya fikrinizi bildirin',
 
         footerTopH1Before: 'BİZİMLƏ ƏLAQƏ SAXLAYIN',
@@ -303,20 +303,21 @@ const infoHTMLs = document.querySelectorAll('.atvImg-info')
 const projectsHTMLs = document.querySelectorAll('.atvImg-projects')
 
 const textH1 = document.getElementById('textH1');
-const textH4 = document.getElementById('textH4');
-const textP = document.getElementById('textP');
+const textP1 = document.getElementById('textP_1');
+const textP2 = document.getElementById('textP_2');
 
-const projectsH1 = document.getElementById('projectsH1');
-const footerTopH1 = document.getElementById('footerTopH1');
-const formLeftH6 = document.getElementById('formLeftH6');
+const precentH1 = document.getElementById('precentH1');
+const precentP = document.getElementById('precentP');
+const footerTopH1 = document.getElementById('footerTopH1'); //*true
+const formLeftH6 = document.getElementById('formLeftH6'); //*true
 
-const submitButton = document.getElementById('submitButton');
-const sendUsAMessageText = document.getElementById('sendUsAMessageText');
-const infoH6_1 = document.getElementById('infoH6_1');
+const submitButton = document.getElementById('submitButton'); //*true
+const sendUsAMessageText = document.getElementById('sendUsAMessageText'); //*true
+const infoH6_1 = document.getElementById('infoH6_1'); //*true
 
-const infoP = document.getElementById('infoP');
-const infoH6_2 = document.getElementById('infoH6_2');
-const infoH6_3 = document.getElementById('infoH6_3');
+const infoP = document.getElementById('infoP'); //*true
+const infoH6_2 = document.getElementById('infoH6_2'); //*true
+const infoH6_3 = document.getElementById('infoH6_3'); //*true
 
 const select = document.getElementsByTagName('select')[0];
 const formInputsArr = document.querySelectorAll('.formInputs');
@@ -326,8 +327,6 @@ select.addEventListener('change', function () {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.en.projectCards[i][j]
                     }
@@ -341,10 +340,11 @@ select.addEventListener('change', function () {
         }
 
         textH1.innerText = langObj.en.textH1;
-        textH4.innerText = langObj.en.textH4;
-        textP.innerText = langObj.en.textP;
+        textP1.innerText = langObj.en.textP1;
+        textP2.innerText = langObj.en.textP2;
 
-        projectsH1.innerText = langObj.en.projectsH1;
+        precentH1.innerText = langObj.en.precentH1;
+        precentP.innerText = langObj.en.precentP;
         footerTopH1.innerText = langObj.en.footerTopH1;
         formLeftH6.innerText = langObj.en.formLeftH6;
 
@@ -356,14 +356,11 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.en.infoH6_2;
         infoH6_3.innerText = langObj.en.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.en.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.en.textPAuthor}'`);
 
     } else if (selectedLang === "RU") {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.ru.projectCards[i][j]
                     }
@@ -375,12 +372,12 @@ select.addEventListener('change', function () {
         for (let i = 0; i < formInputsArr.length; i++) {
             formInputsArr[i].setAttribute('placeholder', langObj.ru.inputPlaceholders[i])
         }
-
         textH1.innerText = langObj.ru.textH1;
-        textH4.innerText = langObj.ru.textH4;
-        textP.innerText = langObj.ru.textP;
+        textP1.innerText = langObj.ru.textP1;
+        textP2.innerText = langObj.ru.textP2;
 
-        projectsH1.innerText = langObj.ru.projectsH1;
+        precentH1.innerText = langObj.ru.precentH1;
+        precentP.innerText = langObj.ru.precentP;
         footerTopH1.innerText = langObj.ru.footerTopH1;
         formLeftH6.innerText = langObj.ru.formLeftH6;
 
@@ -392,14 +389,11 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.ru.infoH6_2;
         infoH6_3.innerText = langObj.ru.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.ru.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.ru.textPAuthor}'`);
 
     } else if (selectedLang === "TR") {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.tr.projectCards[i][j]
                     }
@@ -407,17 +401,16 @@ select.addEventListener('change', function () {
                 }
             })
         }
-
-
         for (let i = 0; i < formInputsArr.length; i++) {
             formInputsArr[i].setAttribute('placeholder', langObj.tr.inputPlaceholders[i])
         }
 
         textH1.innerText = langObj.tr.textH1;
-        textH4.innerText = langObj.tr.textH4;
-        textP.innerText = langObj.tr.textP;
+        textP1.innerText = langObj.tr.textP1;
+        textP2.innerText = langObj.tr.textP2;
 
-        projectsH1.innerText = langObj.tr.projectsH1;
+        precentH1.innerText = langObj.tr.precentH1;
+        precentP.innerText = langObj.tr.precentP;
         footerTopH1.innerText = langObj.tr.footerTopH1;
         formLeftH6.innerText = langObj.tr.formLeftH6;
 
@@ -429,14 +422,11 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.tr.infoH6_2;
         infoH6_3.innerText = langObj.tr.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.tr.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.tr.textPAuthor}'`);
 
     } else if (selectedLang === "AZ") {
         for (let i = 0; i < projectsHTMLs.length; i++) {
             projectsHTMLs[i].addEventListener('mouseenter', function () {
                 if (projectsHTMLs[i].children[1].children[0].children.length > 0) {
-                    console.log(projectsHTMLs[i].children[1].children[0].children);
-                    console.log(langObj.az.projectCards[i]);
                     for (let j = 0; j < projectsHTMLs[i].children[1].children[0].children.length; j++) {
                         projectsHTMLs[i].children[1].children[0].children[j].innerText = langObj.az.projectCards[i][j]
                     }
@@ -450,10 +440,11 @@ select.addEventListener('change', function () {
         }
 
         textH1.innerText = langObj.az.textH1;
-        textH4.innerText = langObj.az.textH4;
-        textP.innerText = langObj.az.textP;
+        textP1.innerText = langObj.az.textP1;
+        textP2.innerText = langObj.az.textP2;
 
-        projectsH1.innerText = langObj.az.projectsH1;
+        precentH1.innerText = langObj.az.precentH1;
+        precentP.innerText = langObj.az.precentP;
         footerTopH1.innerText = langObj.az.footerTopH1;
         formLeftH6.innerText = langObj.az.formLeftH6;
 
@@ -465,6 +456,5 @@ select.addEventListener('change', function () {
         infoH6_2.innerText = langObj.az.infoH6_2;
         infoH6_3.innerText = langObj.az.infoH6_3;
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.az.footerTopH1Before}'`);
-        textP.style.setProperty('--textPAuthor', `'${langObj.az.textPAuthor}'`);
     }
 })

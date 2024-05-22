@@ -189,27 +189,24 @@ let isDark = true;
 const darkOrLight = document.getElementsByClassName('fa-moon')[0];
 //? dark or light
 darkOrLight.addEventListener('click', function () {
+    const bgHeader = document.getElementById('headerInsideText');
+    const formLeft = document.getElementById('formLeft');
+    const formRight = document.getElementById('formRight');
+    const footerTop = document.getElementById('footerTop');
+    const projects = document.getElementById('projects');
     if (isDark) {
         darkOrLight.classList = "brightIcon fa-regular fa-sun";
         darkOrLight.style.color = "orange";
-
         for (let i = 0; i < verticalMenu.children.length; i++) {
             verticalMenu.children[i].children[0].style.color = "black";
         }
         for (let i = 0; i < hMenu.children.length; i++) {
             hMenu.children[i].style.backgroundColor = "black";
         }
-
-        const footerTop = document.getElementById('footerTop');
         footerTop.children[0].children[0].style.color = "black";
-        const projects = document.getElementById('projects');
         projects.children[0].children[0].style.color = "black";
-        const formLeft = document.getElementById('formLeft');
-        const formRight = document.getElementById('formRight');
         formLeft.style.backgroundColor = "rgba(0,0,255, .6)"
         formRight.style.backgroundColor = "rgba(0,0,255, .6)"
-        const brightIcons = document.getElementsByClassName('brightIcon');
-        const bgHeader = document.getElementById('headerInsideText');
         bgHeader.style.backgroundImage = "url(../assets/alimBayram/alimBayramLight.jpg)"
         bgHeader.style.backgroundPosition = "0 -100px"
         document.body.style.backgroundColor = "white"
@@ -232,14 +229,30 @@ darkOrLight.addEventListener('click', function () {
         color:white;
     }
 }`
-
-        // for (let i = 0; i < brightIcons.length; i++) {
-        //     brightIcons[i].style.color = "black";
-        // }
         for (let i = 0; i < bgHeader.children[0].children[0].children.length; i++) {
             bgHeader.children[0].children[0].children[i].style.color = "black";
         }
+
+        if (document.body.offsetWidth < 1332) {
+            bgHeader.style.backgroundPosition = "-100px 0px"
+        }
+        if (document.body.offsetWidth < 727) {
+            bgHeader.style.backgroundPosition = "-100px 30px"
+        }
+        if (document.body.offsetWidth < 533) {
+            bgHeader.style.backgroundPosition = "-20px 0px"
+        }
     } else {
+        if (document.body.offsetWidth < 1332) {
+            bgHeader.style.backgroundPosition = "0 -200px"
+        }
+        if (document.body.offsetWidth < 807) {
+            bgHeader.style.backgroundPosition = "0"
+        }
+        if (document.body.offsetWidth < 651) {
+            bgHeader.style.backgroundPosition = "0 -80px"
+        }
+
         for (let i = 0; i < verticalMenu.children.length; i++) {
             verticalMenu.children[i].children[0].style.color = "white";
         }
@@ -248,14 +261,6 @@ darkOrLight.addEventListener('click', function () {
         }
         darkOrLight.classList = "brightIcon fa-regular fa-moon";
         darkOrLight.style.color = "white";
-
-        const footerTop = document.getElementById('footerTop');
-        const projects = document.getElementById('projects');
-        const bgHeader = document.getElementById('headerInsideText');
-        const formLeft = document.getElementById('formLeft');
-        const formRight = document.getElementById('formRight');
-        const brightIcons = document.getElementsByClassName('brightIcon');
-
         footerTop.children[0].children[0].style.color = "white";
         projects.children[0].children[0].style.color = "white";
         formLeft.style.backgroundColor = "rgba(0,0,0, .24)"
@@ -665,4 +670,4 @@ select.addEventListener('change', function () {
         footerTopH1.style.setProperty('--footerTopH1', `'${langObj.az.footerTopH1Before}'`);
         textP.style.setProperty('--textPAuthor', `'${langObj.az.textPAuthor}'`);
     }
-})
+});

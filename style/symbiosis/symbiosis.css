@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap");
+:root {
+  --footerTopH1: "CONTACT US";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -258,6 +262,9 @@ body main .symbiosisText h1 {
 body main .symbiosisText p {
   font-size: 18px;
   width: 1300px;
+  text-align: center;
+}
+body main .symbiosisText #symbiosisH1_2 {
   text-align: center;
 }
 body main .imageContainer {

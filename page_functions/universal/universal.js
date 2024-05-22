@@ -117,4 +117,9 @@ footerSubmit.addEventListener('click', function (e) {
             }, 1200);
         }
     }
+    if (document.body.offsetWidth < 517) {
+        if (submitButton.value.length > 6) {
+            submitButton.style.fontSize = "11px"
+        }
+    }
 })
